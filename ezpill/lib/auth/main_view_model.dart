@@ -74,7 +74,7 @@ class MainViewModel {
       //  pillDataResponse test
       var pillDataResponse = await http.post(
         Uri.parse(
-            'http://ec2-3-129-91-47.us-east-2.compute.amazonaws.com/ezpill/api/users/'),
+            'http://ec2-13-209-244-84.ap-northeast-2.compute.amazonaws.com/ezpill/api/users/'),
         headers: <String, String>{
           'Content-Type': 'application/json; charset=UTF-8',
         },

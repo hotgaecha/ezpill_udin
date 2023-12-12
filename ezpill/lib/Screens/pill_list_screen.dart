@@ -26,7 +26,7 @@ class _PillListScreenState extends State<PillListScreen> {
     try {
       // Django API URL
       String pillDataUrl =
-          'http://ec2-3-129-91-47.us-east-2.compute.amazonaws.com/ezpill';
+          'http://ec2-13-209-244-84.ap-northeast-2.compute.amazonaws.com/ezpill';
 
       var response = await http.get(
         Uri.parse('$pillDataUrl/api/products/$nutrientName/'),
